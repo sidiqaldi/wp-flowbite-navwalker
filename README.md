@@ -27,7 +27,7 @@ add_action( 'after_setup_theme', 'register_navwalker' );
 
 Update your `wp_nav_menu()` function in `header.php` to use the new walker by adding a "walker" item to the wp_nav_menu array.
 
-```
+```php
 wp_nav_menu(
     array(
         'theme_location' => 'menu-1',
