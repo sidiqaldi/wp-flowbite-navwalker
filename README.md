@@ -44,7 +44,7 @@ wp_nav_menu(
 # Sample implementation using flowbite Multi-level dropdown
 
 ```php
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
             <a href="<?php echo get_home_url(); ?>" class="flex items-center">
